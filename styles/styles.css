@@ -1,0 +1,53 @@
+html {
+  background-image: url(../images/background.jpg);
+  background-size: cover; 
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+body {
+  margin: auto;
+  width: 70%;
+  background-color: rgba(255,255,255, 0.5);
+  padding-top: 2%;
+  
+  margin-top: 5%;
+}
+
+h1 {
+  text-align: center;
+  
+}
+
+article {
+  padding: 0 5%;
+}
+
+li {
+  list-style: none;
+  width: 30%;
+  text-align: center;
+}
+
+li a {
+  text-decoration: none; 
+  color: black;
+  
+}
+
+li a:hover {
+  text-decoration: underline;
+  color: royalblue;
+  
+}
+
+footer {
+  border-top: 1px solid black;
+  text-align: right;
+  margin-top: 10%;
+}
+
+.copyright {
+  margin-top: 0;
+  padding: 1%;
+  font-size: 0.7rem;
+}
