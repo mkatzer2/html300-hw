@@ -51,3 +51,24 @@ footer {
   padding: 1%;
   font-size: 0.7rem;
 }
+
+/* number form styles start here */
+
+table.results {
+  width: 100%;
+  margin: auto;
+  margin-top: 5%;  
+  border-collapse: collapse;
+}
+
+tr th {
+  padding: 1% 5% 1% 0;
+  
+}
+tr td {
+  
+  padding: 1% 5% 1% 0;
+}
+tr, th, td {
+  border: 2px solid rgba(0, 0, 0, 0.2);
+}
