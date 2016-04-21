@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Object List</title>
+    
+    <link href='https://fonts.googleapis.com/css?family=Merriweather+Sans' rel='stylesheet' type='text/css'>
+    
+    <link href="styles/styles.css" type="text/css" rel="stylesheet" >
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Assignment 2: Object List</h1>
+    </header>
+    <article>
+      <div id="table-div" class="table-div">
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Age</th>
+              <th>Committee</th>
+              <th>Officer?</th>
+              <th>Officer Position</th>
+              <th>Phone</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody id="body">
+          
+          </tbody>
+        </table>
+        <button id="new" name="new">Add New Entry</button>
+      </div>
+      <div id="add-form" class="add-form hidden">
+        <form id="form">
+          <label for="fname">Full Name:<input type="text" id="fname" autofocus autocomplete="off" placeholder="First Name" required><input type="text" id="lname" autocomplete="off" placeholder="Last Name" required></label>
+          
+          <label for="age">Age:<input type="number" id="age" autocomplete="off" min="0" placeholder="15"></label>
+          
+          <label>Committee:
+            <select id="committee">
+              <option value="N/A">N/A</option>
+              <option value="Decorations">Decorations</option>
+              <option value="Fundraising">Fundraising</option>
+              <option value="Dance">Dance</option>
+              <option value="Food">Food</option>
+              <option value="Outreach">Outreach</option>
+            </select>
+          </label>
+          
+          <label>Are you an officer?
+            <select id="officerQA">
+              <option>Yes</option>
+              <option>No</option>
+            </select>
+          </label>
+          
+          <label for="officer">What is your officer position?<input type="text" id="officer" autocomplete="off" placeholder="President"></label>
+          
+          <label for="phone">Phone Number:<input type="text" id="phone" autocomplete="off" placeholder="(333)-444-5555" required></label>
+          
+          <label for="email">Email:<input type="text" id="email" autocomplete="off" placeholder="jsmith@email.com" required></label>
+          
+        </form>
+        <button id="submit" name="submit">Submit Entry</button>
+        <button id="back" name="back">Back to Chart</button>
+      </div>
+    </article>
+    <footer>
+    
+    </footer>
+    <script type="text/javascript" src="javascript/object-list.js"></script>
+  </body>
+</html>

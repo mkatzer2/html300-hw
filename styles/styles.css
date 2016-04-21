@@ -72,3 +72,26 @@ tr td {
 tr, th, td {
   border: 2px solid rgba(0, 0, 0, 0.2);
 }
+
+.add-form label {
+  display: block;
+  padding: 1%;
+}
+
+.add-form input, select {
+  margin-left: 2%;
+}
+
+.add-form {
+  border: 3px solid white;
+  padding: 5%;
+}
+
+.hidden {
+  display: none;
+}
+
+.table-div table {
+  width: 80%;
+  margin: auto;
+}
