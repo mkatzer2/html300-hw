@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Number and String Form</title>
+    
+    <link href='https://fonts.googleapis.com/css?family=Merriweather+Sans' rel='stylesheet' type='text/css'>
+    
+    <link href="styles/styles.css" type="text/css" rel="stylesheet" >
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Assignment 3: Number and String Form</h1>
+    </header>
+    
+    <article>
+      <form id="form" method="get" onkeypress="return event.keyCode != 13;">
+        <label>Enter a number, word, or sentence:<input type="text" id="input" autofocus autocomplete="off"></label>
+      </form>
+      <button id="submit" >Submit!</button>
+      <div id="text-area">
+        <h2>Your Text:</h2>
+        <h4>String Count: <span id="text-count"></span></h4>
+        <p id="text"></p>
+      </div>
+      <div id="number-area">
+        <h2>Your Numbers:</h2>
+        <table>
+          <tr>
+            <th>Count:</th>
+            <td id="number-count"></td>
+          </tr>
+          <tr>
+            <th>Sum:</th>
+            <td id="sum"></td>
+          </tr>
+          <tr>
+            <th>Average:</th>
+            <td id="average"></td>
+          </tr>
+        </table>
+      </div>
+    </article>
+    
+    <footer></footer>
+    <script type="text/javascript" src="javascript/number-string.js"></script>
+  </body>
+</html>
