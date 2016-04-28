@@ -49,3 +49,16 @@ $("#input").keypress(function(e) {
     runSubmit();
   }
 });
+
+resetButton = document.getElementById("reset");
+resetButton.addEventListener("click", reset, false);
+
+function reset() {
+  stringText = "";
+  sum = 0;
+  numberCount = 0;
+  stringCount = 0;
+  average = 0;
+  printOutput();
+  document.getElementById("form").reset();
+}
