@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Input Assignment</title>
+    
+    <link href='https://fonts.googleapis.com/css?family=Merriweather+Sans' rel='stylesheet' type='text/css'>
+    
+    <link href="styles/styles.css" type="text/css" rel="stylesheet" >
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Assignment 5: Inputs</h1>
+    </header>
+    
+    <article>
+      <table>
+        <thead>
+          <th>Control Type</th>
+          <th>Control</th>
+          <th>Value Entered</th>
+        </thead>
+        
+        <tbody>
+          <tr>
+            <td>type="checkbox"</td>
+            <td><input id="checkbox" type="checkbox"></td>
+            <td id="checkbox-value"></td>
+          </tr>
+          
+          <tr>
+            <td>type="radio"</td>
+            <td>
+              <input name="fruit" type="radio" value="Orange" checked>Orange<br>
+              <input name="fruit" type="radio" value="Peach">Peach<br>
+              <input name="fruit" type="radio" value="Guava">Guava<br>
+            </td>
+            
+            <td id="radio-value"></td>
+          </tr>
+          
+          <tr>
+            <td>type="text"</td>
+            <td><input id="text" type="text"></td>
+            <td id="text-value"></td>
+          </tr>
+          
+          <tr>
+            <td>type="select"</td>
+            <td>
+              <select id="select" >
+                <option name="fruit" value="Watermelon" selected>Watermelon</option>
+                <option name="fruit" value="Papaya">Papaya</option>
+                <option name="fruit" value="Banana">Banana</option>
+              </select></td>
+            <td id="select-value"></td>
+          </tr>
+          
+          <tr>
+            <td>type="color"</td>
+            <td><input id="color" type="color"></td>
+            <td id="color-value"></td>
+          </tr>
+          
+          <tr>
+            <td>type="range"</td>
+            <td><input id="range" type="range"></td>
+            <td id="range-value"></td>
+          </tr>
+          
+          <tr>
+            <td>type="date"</td>
+            <td><input id="date" type="date"></td>
+            <td id="date-value"></td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+    
+    <footer></footer>
+    
+    <script type="text/javascript" src="javascript/inputs.js"></script>
+  </body>
+</html>
